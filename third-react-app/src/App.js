@@ -15,6 +15,7 @@ function CounterApp(){
   //  let [counter,setCounter]=list;
    let [counter,setCounter] =useState(1);
 
+   //member function
    let likeMeAction = () =>{
       counter = counter+1;
       console.log(counter);
@@ -22,6 +23,8 @@ function CounterApp(){
    }
   return(
     <>
+    <h1>{counter}</h1>
+    <h1>{counter}</h1>
     <h1>{counter}</h1>
     <input type="button" value="Like Me" onClick={likeMeAction} />
     </>
